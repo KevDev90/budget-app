@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Biryani', sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rocket-icon {
+  height: 75px;
+  padding: 15%;
+}
+
+#hide {
+  visibility: hidden;
+}
+
+.nav-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-icon {
+  height: 45px;
+  margin-bottom: 15%;
+  padding: 7.5%;
+}
+
+.nav-icon:first-of-type {
+  border-left: 3px solid #FF7816;
+}
+
+main {
+  display: flex;
+  width: 100%;
+}
+
+section {
+  /* border: 1px solid blue; */
+}
+
+.left-section,
+.right-section {
+  width: 50%;
+  padding: 1.5% 2.5%;
+  background-color: #F5F5F5;
+}
+
+/* ---- LEFT SIDE ---- */
+
+.greeting-banner {
+  font-size: 180%;
+  padding: 3%;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+h1 {
+  font-size: 180%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.greeting-banner {
+  padding: 5%;
+  margin-bottom: 4%;
+}
+
+.greeting-banner h2 {
+  font-size: 70%;
+}
+
+.current-numbers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+.current-num-card {
+  border-radius: 4px;
+  width: 30%;
+  padding: 3%;
+  font-size: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.current-num-card h3 {
+  font-size: 70%;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+
+.current-num-card p {
+  font-size: 130%;
+}
+
+.accounts-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+  margin-top: 6%;
+}
+
+.add-acct {
+  border-radius: 50px;
+  padding: 2.25% 12px 2% 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border: none;
+  cursor: pointer;
+}
+
+.account-card {
+  display: grid;
+  /* grid-template-columns: 10% 45% 20% 10%; */
+  grid-template-columns: 10% 30% 25% 20%;
+  grid-column-gap: 5%;
+  align-items: center;
+  /* padding: 2.5% 3%; */
+  padding: 2.5% 5%;
+  margin-bottom: 2%;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.account-icon {
+  height: 30px;
+}
+
+.acct-insights-btn {
+  border-radius: 100px;
+  border: none;
+  height: 40px;
+  width: 40px;
+  background-image: url('./assets/insights.svg');
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* ---- RIGHT SIDE ---- */
+
+.form-section {
+  background-color: #fff;
+  padding: 7%;
+  padding-left: 10%;
+  margin: 14% 8%;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+form {
+  margin-top: 3%;
+}
+
+.typed-input {
+  display: block;
+  margin-bottom: 3%;
+  font-size: 90%;
+  padding: 1%;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  color: #525252;
+  width: 85%;
+}
+
+input[type="submit"] {
+  background-color: #25D9F8;
+  border-radius: 50px;
+  font-size: 100%;
+  padding: 1.25% 3% 1%;
+  width: 40%;
+  color: #fff;
+  border-color: #25D9F8;
+  cursor: pointer;
+  margin-top: 3%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
